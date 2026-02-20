@@ -87,3 +87,80 @@ footer {
 .back__link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 1024px) {
+
+  .galleryIn__items {
+    max-width: 600px;
+    margin: 20px auto 10px auto;
+  }
+
+  .galleryIn__item {
+    margin-bottom: 20px;
+    height: 400px;
+  margin-bottom: 10px;
+
+  }
+
+  .galleryIn__item img {
+    max-width: 90%;
+    display: block;
+    margin: 0 auto;
+
+  }
+    
+
+    .galleryIn__items {
+      justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+
+  .galleryIn__items {
+    max-width: 600px;
+    margin: 20px auto 10px auto;
+  }
+
+  .galleryIn__item {
+    margin-bottom: 20px;
+    height: 250px;
+  margin-bottom: 10px;
+
+  }
+
+  .galleryIn__item img {
+    max-width: 90%;
+    display: block;
+    margin: 0 auto;
+
+  }
+    
+
+    .galleryIn__items {
+      justify-content: center;
+    }
+}
+
+
+
+@media (max-width: 430px) {
+  .galleryIn__items {
+    max-width: 600px;
+    margin: 20px auto 10px auto;
+  }
+
+  .galleryIn__item {
+    margin-bottom: 20px;
+    height: 150px;
+  margin-bottom: 10px;
+
+  }
+
+  .galleryIn__item img {
+    max-width: 90%;
+    display: block;
+    margin: 0 auto;
+
+  }
+}
